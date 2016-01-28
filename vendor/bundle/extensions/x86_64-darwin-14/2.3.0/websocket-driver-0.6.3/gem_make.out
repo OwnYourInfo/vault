@@ -1,0 +1,15 @@
+current directory: /Users/TrustedCloud/vault/vendor/bundle/gems/websocket-driver-0.6.3/ext/websocket-driver
+/Users/TrustedCloud/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160128-16874-1nl4qfi.rb extconf.rb
+creating Makefile
+
+current directory: /Users/TrustedCloud/vault/vendor/bundle/gems/websocket-driver-0.6.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/TrustedCloud/vault/vendor/bundle/gems/websocket-driver-0.6.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/TrustedCloud/vault/vendor/bundle/gems/websocket-driver-0.6.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20160128-16874-k1utex
