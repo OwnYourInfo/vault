@@ -25,6 +25,9 @@ gem 'puma'
 # Force usage of rake 10.5
 gem 'rake', '~> 10.5'
 
+# Use devise for authentication. Read more: https://github.com/plataformatec/devise
+gem 'devise', git: 'git@github.com:plataformatec/devise.git'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
