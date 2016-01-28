@@ -26,7 +26,7 @@ gem 'puma'
 gem 'rake', '~> 10.5'
 
 # Use devise for authentication. Read more: https://github.com/plataformatec/devise
-gem 'devise', git: 'git@github.com:plataformatec/devise.git'
+gem 'devise', :git => 'https://github.com/plataformatec/devise.git'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
