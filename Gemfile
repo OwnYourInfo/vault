@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '>= 5.0.0.beta1.1', '< 5.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
+# A toolkit of support libraries and Ruby core extensions extracted from the Rails framework. Rich support for multibyte strings, internationalization, time zones, and testing.
+gem 'activesupport', '>= 5.0.0.beta1.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -39,5 +41,12 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+	# Provide logs and efficiency for Heroku
+	gem 'rails_12factor'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+ruby "2.3.0"
